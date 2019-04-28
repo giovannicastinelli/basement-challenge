@@ -1,0 +1,33 @@
+{
+  "name": "basement-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "standard --fix && next",
+    "build": "standard --fix && next build",
+    "start": "standard --fix && next start",
+    "lint": "eslint pages -c .eslintrc.json --ext js,jsx --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannicastinelli/basement-challenge.git"
+  },
+  "author": "Giovanni Castinelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannicastinelli/basement-challenge/issues"
+  },
+  "homepage": "https://github.com/giovannicastinelli/basement-challenge#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
