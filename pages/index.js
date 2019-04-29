@@ -1,6 +1,6 @@
 import '../styles/styles.scss'
 import Head from 'next/head'
-import NavBar from '../components/nav'
+import HeaderComponent from '../components/header'
 
 export default () => (
   <div>
@@ -9,6 +9,7 @@ export default () => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
-    <NavBar />
+    <HeaderComponent />
+    <div className='testdiv' />
   </div>
 )
