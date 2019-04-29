@@ -1,0 +1,26 @@
+section#intro {
+  padding: 70px 24px 180px 24px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  .actions {
+    text-align: center;
+    button {
+      width: 175px;
+      margin: 0 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section#intro {
+    .actions {
+      padding: 0 30px;
+      button {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+      }
+    }
+  }
+}

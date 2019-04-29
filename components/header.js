@@ -3,7 +3,7 @@ import ReactSVG from 'react-svg'
 import Link from 'next/link'
 import '../styles/header.scss'
 
-class HeaderComponent extends React.Component {
+export default class HeaderComponent extends React.Component {
   constructor (props) {
     super(props)
     this.state = { position: 0 }
@@ -61,5 +61,3 @@ class HeaderComponent extends React.Component {
       </div>)
   }
 }
-
-export default HeaderComponent

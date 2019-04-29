@@ -1,59 +1,23 @@
+@import './typo.scss';
+@import './buttons.scss';
+
 html {
   --accent-color: #0076ff;
   --accent-hovered: #3291ff;
+  --dark-color: #24292E;
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #FAFBFC;
 }
 
 * {
   box-sizing: border-box;
 }
 
-a {
-  cursor: pointer;
-  color: #9b9b9b;
-  text-decoration: none;
-  outline: none;
-  &:hover {
-    color: #000000;
-  }
-  &.button {
-    width: 95px;
-    height: 30px;
-    outline: none;
-    color: #fff;
-    font-size: 12px;
-    appearance: none;
-    margin-left: 10px;
-    align-items: center;
-    display: inline-flex;
-    background: var(--accent-color);
-    padding: 6px 12px;
-    border: 1px solid var(--accent-color);
-    justify-content: center;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    position: relative;
-    overflow: hidden;
-    border-radius: 6px;
-    white-space: nowrap;
-    line-height: 0;
-    text-transform: uppercase;
-    &:hover {
-      color: #fff;
-      border: 1px solid var(--accent-hovered);
-      background: var(--accent-hovered);
-    }
-  }
-}
-
-.testdiv {
-  height: 1900px;
+section {
+  border-bottom: 1px solid #EAEAEA;
 }
