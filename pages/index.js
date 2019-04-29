@@ -2,6 +2,7 @@ import '../styles/styles.scss'
 import Head from 'next/head'
 import HeaderComponent from '../components/header'
 import IntroComponent from '../components/intro'
+import FeaturesComponent from '../components/features'
 
 export default () => (
   <div>
@@ -13,6 +14,7 @@ export default () => (
     <HeaderComponent />
     <main>
       <IntroComponent />
+      <FeaturesComponent />
     </main>
   </div>
 )
