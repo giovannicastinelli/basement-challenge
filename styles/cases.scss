@@ -1,0 +1,19 @@
+section#cases {
+  padding-top: 80px;
+  text-align: center;
+  background-color: white;
+  .main_cases {
+    max-width: 1064px;
+    margin: 60px auto;
+    aside {
+      margin: 0 25px;
+      display: inline-block;
+      text-align: left;
+      width: 300px;
+      vertical-align: top;
+    }
+    p {
+      text-align: left;
+    }
+  }
+}

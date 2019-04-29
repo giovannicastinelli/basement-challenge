@@ -3,6 +3,7 @@ import Head from 'next/head'
 import HeaderComponent from '../components/header'
 import IntroComponent from '../components/intro'
 import FeaturesComponent from '../components/features'
+import CasesComponent from '../components/cases'
 
 export default () => (
   <div>
@@ -15,6 +16,8 @@ export default () => (
     <main>
       <IntroComponent />
       <FeaturesComponent />
+      <CasesComponent />
+      <section className='final_section' />
     </main>
   </div>
 )
