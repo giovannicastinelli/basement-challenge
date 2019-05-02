@@ -8,6 +8,7 @@ section#features {
     max-width: 1000px;
     margin: auto;
     overflow: auto;
+    padding: 0 48px 24px;
     aside:nth-of-type(1) {
       float: left;
       width: 40%;
@@ -21,17 +22,38 @@ section#features {
       text-align: left;
     }
     .main_features {
+      list-style: none;
       li {
         margin-bottom: 30px;
+        position: relative;
+        &::before {
+          content: url('/static/check.svg');
+          display: inline-block;
+          padding: 6px 8px;
+          width: 16px;
+          height: 20px;
+          top: 0px;
+          left: -48px;
+          background: #ffffff;
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+          border-radius: 28px;
+          position: absolute;
+        }
       }
     }
     .features_card {
       background: #ffffff;
       border-radius: 10px;
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
-      width: 540px;
-      height: 370px;
+      width: 412px;
+      height: 386px;
       margin: 24px auto 100px auto;
+      display: flex;
+      img {
+        width: 292px;
+        height: 306px;
+        margin: auto;
+      }
     }
   }
 }
@@ -40,21 +62,27 @@ section#features {
   section#features {
     padding-bottom: 70px;
     .features_wrapper {
+      padding: 0 24px 24px;
       aside {
         padding: 24px;
         display: block;
       }
-      aside:nth-of-type(1), aside:nth-of-type(2) {
+      aside:nth-of-type(1),
+      aside:nth-of-type(2) {
         float: none;
         width: 100%;
       }
       .button {
-          width: 100%;
+        width: 100%;
       }
       .features_card {
-        width: 300px;
-        height: 205px;
+        width: 280px;
+        height: 200px;
         margin-bottom: 70px;
+        img {
+          width: 157px;
+          height: 165px;
+        }
       }
     }
   }
