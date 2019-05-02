@@ -11,13 +11,9 @@
   top: 0;
   transition: all 0.4s ease;
   background-color: white;
-  .logo {
+  img.logo {
     height: 28px;
     padding-right: 26px;
-    svg {
-      height: 28px;
-      width: 28px;
-    }
   }
   header {
     width: 1040px;

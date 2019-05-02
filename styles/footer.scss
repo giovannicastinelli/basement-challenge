@@ -1,0 +1,38 @@
+footer {
+  height: 148px;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.4s ease;
+  .footer_nav {
+    height: 28px;
+    width: 1040px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    ul {
+      margin: 0;
+      padding: 0;
+      height: 28px;
+      li {
+        float: left;
+        padding: 0 14px;
+        list-style: none;
+        line-height: 28px;
+      }
+    }
+  }
+  img.logo {
+    height: 28px;
+    padding-right: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    height: 88px;
+  }
+}

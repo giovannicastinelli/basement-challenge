@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactSVG from 'react-svg'
 import Link from 'next/link'
 import '../styles/header.scss'
 
@@ -31,7 +30,7 @@ export default class HeaderComponent extends React.Component {
               </svg>
             </label>
             <Link href='#intro'>
-              <a><ReactSVG className='logo' src='/static/triangle.svg' /></a>
+              <a><img className='logo' src='/static/triangle.svg' alt='' /></a>
             </Link>
             <nav className='main_nav'>
               <ul>

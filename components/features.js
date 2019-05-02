@@ -6,7 +6,9 @@ export default class FeaturesComponent extends React.Component {
     return (
       <section id='features'>
         <div className='features_wrapper'>
-          <div className='features_card' />
+          <div className='features_card' >
+            <img src='/static/serverless.svg' />
+          </div>
           <aside>
             <h2>Open source</h2>
             <p>

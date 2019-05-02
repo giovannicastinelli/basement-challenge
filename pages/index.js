@@ -4,6 +4,7 @@ import HeaderComponent from '../components/header'
 import IntroComponent from '../components/intro'
 import FeaturesComponent from '../components/features'
 import CasesComponent from '../components/cases'
+import FooterComponent from '../components/footer'
 
 export default () => (
   <div>
@@ -17,7 +18,7 @@ export default () => (
       <IntroComponent />
       <FeaturesComponent />
       <CasesComponent />
-      <section className='final_section' />
+      <FooterComponent />
     </main>
   </div>
 )
